@@ -22,7 +22,7 @@ export function StudentTable({ students }: StudentTableProps) {
   return (
     <div className="w-full">
       <div className="flex justify-between items-center mb-6">
-        <h1 className="text-2xl font-bold text-text">Student Management</h1>
+        <h1 className="text-2xl font-bold text-text">Student Management by M Maaz</h1>
         <Button onClick={() => setAddOpen(true)} className="bg-accent hover:bg-accent/90 text-background">
           <PlusCircle className="mr-2 h-4 w-4" />
           Add Student
